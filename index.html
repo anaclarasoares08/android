@@ -1,1 +1,51 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitologia Nórdica - Flashcards Místicos</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@500;700&family=Eagle+Lake&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="thunder-flash" id="thunderFlash"></div>
+
+    <header>
+        <h1>CONHECIMENTO DOS ASES</h1>
+        <div class="subtitle">Desvende os mistérios dos Nove Reinos</div>
+    </header>
+
+    <div class="card-container" id="cardContainer">
+        <div class="card" id="flashcard">
+            
+            <div class="card-face card-front">
+                <div class="rune-bg">ᛘ</div>
+                <div class="rune-text" id="frontRune">ᚦᚾᛟᚱ</div>
+                <div class="card-title" id="frontTitle">Carregando pergunta...</div>
+                <div class="hint">Clique para revelar a resposta</div>
+            </div>
+
+            <div class="card-face card-back">
+                <div class="rune-bg">ᚦ</div>
+                <div class="card-title">RESPOSTA</div>
+                <div class="card-content" id="backContent">Carregando resposta...</div>
+                <div class="hint">Clique para ver a pergunta</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="btnPrev">◄ Anterior</button>
+        <button id="btnNext">Próximo ►</button>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
